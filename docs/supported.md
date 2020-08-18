@@ -1,25 +1,21 @@
 # Supported Platforms
 
-Different cloud vendors use different names for region and instance types. They even use different names for region and instance types themselves:
+Currently, we support 
 
-
-| Vendor  |  Region |  Instance Types |
+| Vendor  |  Region(Location) |  Instance Types (VM Sizes) |
 |---|---|---|
-|  aws |  region | instance type  | 
-| azure  |  location |  vm size | 
+|  aws |  us-east-1, us-west-2 | TODO  | 
+| azure  |  eastus, westus |  TODO | 
 
+`Alibaba Cloud` will be supported soon.
 
-More details (number of GPUs, types of GPUs, number of cores) can be found once you login to cloudor console
+The full and latest list of supported vendors, regions and instance types can be found by running
 
-## AWS
+```
+cloudor vendor 
+```
 
+or log into the cloudor console. 
 
-## Azure
-
-
-
-
-## Alibaba Cloud
-
-To be supported
+More details each instance (number of GPUs, types of GPUs, number of CPU cores) can also be found there.
 

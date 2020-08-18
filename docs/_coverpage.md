@@ -4,13 +4,12 @@
 
 > Run your container jobs on any cloud, any region, any instance<sup>*</sup>, anytime
 
-- <sup>*</sup> Well, any cloud we support: aws, azure, alibaba cloud. See [full list](supported.md)
+- <sup>*</sup> any cloud we support: aws, azure ... See [full list](supported.md)
 - <small>alpha</small> specializing in CUDA-accelerated `docker` containers
 
-```
-cloudor run cloudor/hello-world --vendor aws --region us-west-1 --instance-type g3s.xlarge
-```
+<label class="unselectable">$ </label><span style="color:orange">cloudor run hello-world -v aws -r us-east-1 -i t2.micro</span>
+
 
 [GitHub](https://github.com/cloudor-io)
-[Get Started](#quickstart)
+[Get Started](#cloudor)
 
